@@ -1,0 +1,180 @@
+{
+	"variables": [],
+	"info": {
+		"name": "HW4",
+		"_postman_id": "9baa9c56-1561-6acd-91c1-3b8df2b07d1f",
+		"description": "For web api class",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Base GET request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "Base POST request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "Base PUT request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "Base DELETE request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "/movies GET request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "/movies PUT request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "/movies DELETE request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Yoo\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "/movies POST request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies/Ball Fondlers",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\" : \"Same\",\n\t\"releasedate\" : \"12-25-0000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "/movies GET request with a movie title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies/kk",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"kk\",\n\t\"releasedate\" : \"12-25-2043\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "/movies PUT request to a single movie"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw4",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw4/movies/kk",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"kk\",\n\t\"releasedate\" : \"12-25-2043\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "/movies DELETE request to a single movie"
+			},
+			"response": []
+		}
+	]
+}
